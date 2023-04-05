@@ -148,7 +148,7 @@ const getOneBookHandler = (request, h) => {
   
     const book = books.filter((n) => n.id === id)[0];
   
-    if (note !== undefined) {
+    if (book !== undefined) {
       return {
         status: 'success',
         data: {
