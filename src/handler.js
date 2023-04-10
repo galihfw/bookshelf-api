@@ -34,6 +34,7 @@ const addBookHandler = (request, h) => {
     author,
     summary,
     publisher,
+    readPage,
     pageCount,
     finished,
     reading,
